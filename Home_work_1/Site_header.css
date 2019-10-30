@@ -11,20 +11,8 @@
 
 	position: absolute;
 	top: 15%;
-	/*margin-left: 35%;
-	font-family: 'Roboto Light', sans-serif;
-	font-size: 21px;
-	color: #2c71b8;*/
 	margin-left: 30%;
 }
-
-
-/*.menulist: after {
-	content: "";
-	display: block;
-	clear: both;
-	float: none;
-}	*/
 
 
 .menu {
@@ -44,7 +32,6 @@ li {
 	float: left;
 	border-left: 1px solid #2c71b8;
 	border-right: 0px solid #2c71b8;
-	/*margin: 0px 4px 4px 0px;*/
 	padding: 10px;
 
 }	
@@ -109,7 +96,7 @@ li {
 	padding: 2px;
 	border-radius: 10px 10px;
 	margin-right: 5%;
-	margin-top: -6%;
+	margin-top: -7%;
 
 
 }
