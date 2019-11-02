@@ -52,10 +52,16 @@ li {
 
 }
 
+input::-moz-placeholder {
+	
+	color: #2c71b8;
+
+}
+
 .search .input {
 
 	width: 100%;
-	padding: 
+	
 
 
 }
