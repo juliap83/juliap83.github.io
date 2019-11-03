@@ -101,8 +101,8 @@ input::-moz-placeholder {
 	font-size: 10px;
 	padding: 2px;
 	border-radius: 10px 10px;
-	margin-right: 5%;
-	margin-top: -7%;
+	/*margin-right: 5%;*/
+	margin-top: -16px;
 
 }
 
