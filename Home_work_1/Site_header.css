@@ -87,7 +87,7 @@ input[type="text"]::-webkit-input-placeholder {
 	position: relative;
 	width: 40px;
 	height: 40px;
-	background: url(layers/header/blue cart.png) #ffffff no-repeat 50%;
+	background: url(layers/header/blue_cart.png) #ffffff no-repeat 50%;
 	padding: 0px;
 }
 .number {
