@@ -162,8 +162,9 @@ ul.menu > li:hover > ul.submenu-products {
 	line-height: 70px;
 }
 .next {
-	background-image: url(layers/main/next.png);
-	/*color: white;*/
+	font-weight: 200px;
+	font-size: 14px;
+	color: rgb(135,172,216);
 }
 .heading {
 	font-size: 48px;
@@ -172,8 +173,8 @@ ul.menu > li:hover > ul.submenu-products {
 }
 .window_product {
 	position: relative;
-	top: 53px;
-	width: 30%;
+	top: 30px;
+	width: 270px;
 	height: 650px;
 	border: 1px solid white;
 	background-color: rgba(44,113,184,0.8);
@@ -185,14 +186,91 @@ ul.menu > li:hover > ul.submenu-products {
 	text-align: center;
 	padding: 45px;
 }
-.frame {
+.blue_frame {
 	position: absolute;
+	top: 10px;
+	margin-left: 185px;
 	height: 29px;
 	width: 29px;
 	border: 1px solid #2c71b8;
+	background: url(layers/main/blue_frame.png) no-repeat 50%;
 }
-.blue_frame {
-	background: url(layers/main/blue_frame.png);
+.blue_heart {
+	position: absolute;
+	top: 50px;
+	margin-left: 185px;
+	height: 29px;
+	width: 29px;
 	border: 1px solid #2c71b8;
-	z-index: 10px;
+	background: url(layers/main/blue_heart.png) no-repeat 50%;
 }
+.specification_product{
+	margin-left: 15px;
+}
+.device_name {
+	font-size: 30px;
+	line-height: 2;
+}
+.text {
+	font-size: 21px;
+	font-weight: 100;
+	line-height: 1.3;
+}
+.font_size {
+	font-size: 21px;
+	text-transform: uppercase;
+	line-height: 1.5;
+	white-space: pre;
+}
+.capitalize {
+	text-transform: capitalize;
+	font-weight: 100;
+}
+.lowercase {
+	text-transform: lowercase;
+	font-weight: 100;
+}
+.uppercase {
+	text-transform: uppercase;
+	/*font-weight: 100;*/
+}
+.price_product {
+	font-size: 48px;
+	line-height: 2;
+	text-align: center;
+}
+.superscript {
+	vertical-align: super;
+	font-size: 27px;
+}
+.text_center {
+	position: relative;
+	text-align: center;
+	line-height: 3.5;
+}	
+.more_details {
+	/*position: relative;*/
+	font-size: 21px;
+	font-weight: 600;
+	height: 47px;
+	width: 210px;
+	border: 1px solid white;
+	background-color: inherit;
+	text-align: center;
+}
+input[type="buttom"]::-webkit-input-placeholder { 
+	color: white; 
+}
+.add_to_cart {
+	background-color: rgba(255,255,255,0.2);
+}
+.white_cart {
+	height: 15px;
+	width: 17px;
+	background: url(layers/main/white_cart.png) no-repeat 50%;
+}
+
+
+
+
+
