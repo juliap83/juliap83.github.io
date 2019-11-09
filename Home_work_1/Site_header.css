@@ -8,6 +8,7 @@ body {
 .container {
 	width: 1170px;
 	margin:0 auto;
+	height: 75px;
 }
 .row:after {
 	content: "";
@@ -32,6 +33,10 @@ body {
 .header {
 	background-color: rgba(255,255,255,0.75);
 	padding: 25px 0;
+	height: 100px;
+}
+.border-bottom {
+	border-bottom: 1px solid white;
 }
 .menu li {
 	position: relative;
@@ -59,46 +64,47 @@ body {
 }
 .search {
 	position: relative;
+	top: -18px;
 	border: 1px solid #2c71b8;	
-	width: 150px;
-	height: 28px;
-	margin: 10px;
+	width: 200px;
+	height: 35px;
+	margin: 26px;
 }	
 input[type="text"]::-webkit-input-placeholder { 
 	color: #2c71b8; 
 }
 .search input {
 	border: none;
-    width: 140px;
-    height: 25px;
-    padding: 10px;
+    padding: 6px;
+    margin-left: 20px;
     background: inherit;
 }  
 .search .submit {
 	position: absolute;
-	top: 9%;
+	top: 3px;
 	right:3px;
 	background: url(layers/header/loupe.png) #2c71b8 no-repeat 50%;
-	padding: 3px;
-	width: 23px;
-	height: 22px;
+	width: 29px;
+	height: 27px;
 }
 .smallcart {
 	position: relative;
-	width: 40px;
-	height: 40px;
+	top: 8px;
+	width: 38px;
+	height: 36px;
 	background: url(layers/header/blue_cart.png) #ffffff no-repeat 50%;
-	padding: 0px;
+	margin-left: 30px;
 }
 .number {
 	position: absolute;
 	top: 25px;
-	height: 10px;
-	width: 10px;
+	height: 18px;
+	width: 18px;
 	background-color: #2c71b8;
 	color: #ffffff;
 	font-size: 10px;
-	padding: 2px;
+	padding: 5px;
+	margin-left: 20px;
 	border-radius: 10px 10px;
 }
 ul.submenu-products {
@@ -133,4 +139,22 @@ ul.menu > li:hover > ul.submenu-products {
 	padding-left: 5%;
 	top: -2px;
 }
-
+.main {
+	height: 2635px;
+}
+.slide {
+	height: 400px;
+}	
+.device_type {
+	height: 842px;
+	background-color: rgba(255,255,255,0.2);
+	border-right: 1px solid white; 
+}
+.home_page a {
+	font-size: 14px;
+	color: white;
+}
+.next {
+	background-image: url(layers/main/next.png);
+	color: white;
+}
