@@ -139,7 +139,9 @@ ul.menu > li:hover > ul.submenu-products {
 	padding-left: 5%;
 	top: -2px;
 }
-.main {
+.main  {
+	font-family: 'Roboto', sans-serif;
+	color: white;
 	height: 2635px;
 }
 .slide {
@@ -150,11 +152,28 @@ ul.menu > li:hover > ul.submenu-products {
 	background-color: rgba(255,255,255,0.2);
 	border-right: 1px solid white; 
 }
+.home_page {
+	width: auto;
+}
 .home_page a {
 	font-size: 14px;
 	color: white;
+	line-height: 70px;
 }
 .next {
 	background-image: url(layers/main/next.png);
-	color: white;
+	/*color: white;*/
+}
+.heading {
+	font-size: 48px;
+	line-height: 40px;
+
+}
+.window_product {
+	position: relative;
+	top: 53px;
+	width: 30%;
+	height: 650px;
+	border: 1px solid white;
+	background-color: rgb(44,113,184);
 }
