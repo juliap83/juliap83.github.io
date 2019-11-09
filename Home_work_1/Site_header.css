@@ -156,8 +156,9 @@ ul.menu > li:hover > ul.submenu-products {
 	width: auto;
 }
 .home_page a {
+	font-weight: 200;
 	font-size: 14px;
-	color: white;
+	color: rgb(135,172,216);
 	line-height: 70px;
 }
 .next {
@@ -175,5 +176,23 @@ ul.menu > li:hover > ul.submenu-products {
 	width: 30%;
 	height: 650px;
 	border: 1px solid white;
-	background-color: rgb(44,113,184);
+	background-color: rgba(44,113,184,0.8);
+}
+.image_product {
+	position: relative;
+	height: 180px;
+	background-color: rgba(255,255,255,0.75);
+	text-align: center;
+	padding: 45px;
+}
+.frame {
+	position: absolute;
+	height: 29px;
+	width: 29px;
+	border: 1px solid #2c71b8;
+}
+.blue_frame {
+	background: url(layers/main/blue_frame.png);
+	border: 1px solid #2c71b8;
+	z-index: 10px;
 }
