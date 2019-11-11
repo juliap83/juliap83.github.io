@@ -192,7 +192,7 @@ ul.menu > li:hover > ul.submenu-products {
 .blue_frame {
 	position: absolute;
 	top: 10px;
-	margin-left: 185px;
+	right: 10px;
 	height: 29px;
 	width: 29px;
 	border: 1px solid #2c71b8;
@@ -201,7 +201,7 @@ ul.menu > li:hover > ul.submenu-products {
 .blue_heart {
 	position: absolute;
 	top: 50px;
-	margin-left: 185px;
+	right: 10px;
 	height: 29px;
 	width: 29px;
 	border: 1px solid #2c71b8;
