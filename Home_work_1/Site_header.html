@@ -69,10 +69,47 @@
                     <a href="">Products</a>
                      <span class="next">></span>
                     <a>Laptops and Tablets</a>
-                </div>  
-                <h1 class="heading">Laptops and Tablets</h1>
-                <div class="col-md-9 row">
-                    <div class="window_product">
+                </div> 
+                <div>
+                     <span class="heading">Laptops and Tablets</span>
+                </div>   
+                <select class="sort_by">
+                    <option disabled="">sort by price</option>
+                    <option value="1">sort by name</option>
+                    <option value="2">sort by date</option>
+                    <option value="3">sort by popularity</option>
+                </select>  
+                <div class="col-md-9 row ">
+                    <div class="window_product col-md-9 row margin">
+                        <div class="image_product border-bottom">
+                            <a href="">
+                                <img src="layers/main/monitor.png">
+                            </a>
+                                <nav class="row col-">
+                                    <div class="blue_frame"></div>
+                                    <div class="blue_heart"></div>
+                                </nav>     
+                        </div>
+                        <div class="specification_product">
+                            <h2 class="device_name">#1 Device Name</h2>
+                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
+                            <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
+                            <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
+                        </div>
+                        <div class="price_product">
+                            <div>$599<span class="superscript">25</span>
+                            </div>   
+                        </div>
+                        <div class="text_center">
+                            <input type="buttom" placeholder="More details" class="more_details uppercase">
+                        </div>    
+                        <div class="text_center">   
+                            <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
+                              <div class="white_cart"></div>
+                        </div>  
+                    </div>    
+                    <div class="window_product col-md-9 row margin">
                         <div class="image_product border-bottom">
                             <a href="">
                                 <img src="layers/main/monitor.png">
@@ -100,7 +137,8 @@
                             <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
                               <div class="white_cart"></div>
                         </div>  
-                        <div class="window_product">
+                    </div>        
+                    <div class="window_product col-md-9 row margin">
                         <div class="image_product border-bottom">
                             <a href="">
                                 <img src="layers/main/monitor.png">
@@ -127,37 +165,187 @@
                         <div class="text_center">   
                             <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
                               <div class="white_cart"></div>
-                        </div>      
-                        <div class="window_product">
-                        <div class="image_product border-bottom">
-                            <a href="">
-                                <img src="layers/main/monitor.png">
-                            </a>
-                                <nav class="row col-">
-                                    <div class="blue_frame"></div>
-                                    <div class="blue_heart"></div>
-                                </nav>     
-                        </div>
-                        <div class="specification_product">
-                            <h2 class="device_name">#1 Device Name</h2>
-                            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                            <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
-                            <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
-                            <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
-                        </div>
-                        <div class="price_product">
-                            <div>$599<span class="superscript">25</span>
-                            </div>   
-                        </div>
-                        <div class="text_center">
-                            <input type="buttom" placeholder="More details" class="more_details uppercase">
-                        </div>
-                        <div class="text_center">   
-                            <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
-                              <div class="white_cart"></div>
-                        </div>    
-                        
+                        </div>  
                     </div>
+                    <div class="window_product col-md-9 row margin">
+                            <div class="image_product border-bottom">
+                            <a href="">
+                                <img src="layers/main/monitor.png">
+                            </a>
+                                <nav class="row col-">
+                                    <div class="blue_frame"></div>
+                                    <div class="blue_heart"></div>
+                                </nav>     
+                            </div>
+                            <div class="specification_product">
+                                <h2 class="device_name">#1 Device Name</h2>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
+                                <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
+                                <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
+                            </div>
+                            <div class="price_product">
+                                <div>$599<span class="superscript">25</span>
+                                </div>   
+                            </div>
+                            <div class="text_center">
+                                <input type="buttom" placeholder="More details" class="more_details uppercase">
+                            </div>
+                            <div class="text_center">   
+                                <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
+                                <div class="white_cart"></div>
+                            </div>   
+                    </div>
+                     <div class="window_product col-md-9 row margin">
+                            <div class="image_product border-bottom">
+                            <a href="">
+                                <img src="layers/main/monitor.png">
+                            </a>
+                                <nav class="row col-">
+                                    <div class="blue_frame"></div>
+                                    <div class="blue_heart"></div>
+                                </nav>     
+                            </div>
+                            <div class="specification_product">
+                                <h2 class="device_name">#1 Device Name</h2>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
+                                <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
+                                <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
+                            </div>
+                            <div class="price_product">
+                                <div>$599<span class="superscript">25</span>
+                                </div>   
+                            </div>
+                            <div class="text_center">
+                                <input type="buttom" placeholder="More details" class="more_details uppercase">
+                            </div>
+                            <div class="text_center">   
+                                <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
+                                <div class="white_cart"></div>
+                            </div>   
+                    </div>
+                     <div class="window_product col-md-9 row margin">
+                            <div class="image_product border-bottom">
+                            <a href="">
+                                <img src="layers/main/monitor.png">
+                            </a>
+                                <nav class="row col-">
+                                    <div class="blue_frame"></div>
+                                    <div class="blue_heart"></div>
+                                </nav>     
+                            </div>
+                            <div class="specification_product">
+                                <h2 class="device_name">#1 Device Name</h2>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
+                                <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
+                                <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
+                            </div>
+                            <div class="price_product">
+                                <div>$599<span class="superscript">25</span>
+                                </div>   
+                            </div>
+                            <div class="text_center">
+                                <input type="buttom" placeholder="More details" class="more_details uppercase">
+                            </div>
+                            <div class="text_center">   
+                                <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
+                                <div class="white_cart"></div>
+                            </div>   
+                    </div>
+                     <div class="window_product col-md-9 row margin">
+                            <div class="image_product border-bottom">
+                            <a href="">
+                                <img src="layers/main/monitor.png">
+                            </a>
+                                <nav class="row col-">
+                                    <div class="blue_frame"></div>
+                                    <div class="blue_heart"></div>
+                                </nav>     
+                            </div>
+                            <div class="specification_product">
+                                <h2 class="device_name">#1 Device Name</h2>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
+                                <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
+                                <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
+                            </div>
+                            <div class="price_product">
+                                <div>$599<span class="superscript">25</span>
+                                </div>   
+                            </div>
+                            <div class="text_center">
+                                <input type="buttom" placeholder="More details" class="more_details uppercase">
+                            </div>
+                            <div class="text_center">   
+                                <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
+                                <div class="white_cart"></div>
+                            </div>   
+                    </div>
+                     <div class="window_product col-md-9 row margin">
+                            <div class="image_product border-bottom">
+                            <a href="">
+                                <img src="layers/main/monitor.png">
+                            </a>
+                                <nav class="row col-">
+                                    <div class="blue_frame"></div>
+                                    <div class="blue_heart"></div>
+                                </nav>     
+                            </div>
+                            <div class="specification_product">
+                                <h2 class="device_name">#1 Device Name</h2>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
+                                <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
+                                <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
+                            </div>
+                            <div class="price_product">
+                                <div>$599<span class="superscript">25</span>
+                                </div>   
+                            </div>
+                            <div class="text_center">
+                                <input type="buttom" placeholder="More details" class="more_details uppercase">
+                            </div>
+                            <div class="text_center">   
+                                <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
+                                <div class="white_cart"></div>
+                            </div>   
+                    </div>
+                     <div class="window_product col-md-9 row margin">
+                            <div class="image_product border-bottom">
+                            <a href="">
+                                <img src="layers/main/monitor.png">
+                            </a>
+                                <nav class="row col-">
+                                    <div class="blue_frame"></div>
+                                    <div class="blue_heart"></div>
+                                </nav>     
+                            </div>
+                            <div class="specification_product">
+                                <h2 class="device_name">#1 Device Name</h2>
+                                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                                <p class="font_size">Type: <span class="capitalize">Laptop</span></p>
+                                <p class="font_size">Screen size: <span class="lowercase">7 inches</span></p>
+                                <p class="font_size">Ram: <span class="uppercase">1Gb</span></p> 
+                            </div>
+                            <div class="price_product">
+                                <div>$599<span class="superscript">25</span>
+                                </div>   
+                            </div>
+                            <div class="text_center">
+                                <input type="buttom" placeholder="More details" class="more_details uppercase">
+                            </div>
+                            <div class="text_center">   
+                                <input type="buttom" placeholder="Add to cart" class="add_to_cart more_details uppercase">
+                                <div class="white_cart"></div>
+                            </div>   
+                    </div>
+
+
+
+
+
 
 
                     
