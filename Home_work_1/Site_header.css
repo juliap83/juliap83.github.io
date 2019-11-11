@@ -59,6 +59,8 @@ body {
 	font-weight: 300;
 }
 .menu a:hover {
+	visibility: visible;
+	opacity: 1;
 	background-color: #2c71b8;
 	color: white;
 }
@@ -76,7 +78,7 @@ input[type="text"]::-webkit-input-placeholder {
 .search input {
 	border: none;
     padding: 6px;
-    margin-left: 20px;
+    margin-left: 16px;
     background: inherit;
 }  
 .search .submit {
@@ -97,14 +99,14 @@ input[type="text"]::-webkit-input-placeholder {
 }
 .number {
 	position: absolute;
-	top: 25px;
+	top: -7px;
 	height: 18px;
 	width: 18px;
 	background-color: #2c71b8;
 	color: #ffffff;
 	font-size: 10px;
 	padding: 5px;
-	margin-left: 20px;
+	margin-left: -10px;
 	border-radius: 10px 10px;
 }
 ul.submenu-products {
@@ -278,12 +280,20 @@ input[type="buttom"]::-webkit-input-placeholder {
 	width: 270px;
 	height: 45px;
 	top: 28px;
+	padding: 0px 0px 0px 15px;
 	margin: -45px 170px 0px 0px;
 	font-size: 21px;
 	color: white;
 	background-color: #2c71b8;
 	border: 1px solid white;
 }
+.white_frame a:hover {
+	background: url(layers/main/white_frame.png) #2c71b8 no-repeat 50%;
+}
+.white_heart a:hover {
+	background: url(layers/main/white_heart.png) #2c71b8 no-repeat 50%;
+}
+
 
 
 
