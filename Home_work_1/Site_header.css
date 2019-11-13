@@ -60,7 +60,7 @@ body {
 }
 .menu a:hover {
 	visibility: visible;
-	opacity: 1;
+	transition-delay: 0s;
 	background-color: #2c71b8;
 	color: white;
 }
@@ -112,7 +112,6 @@ input[type="text"]::-webkit-input-placeholder {
 ul.submenu-products {
 	position: absolute;
 	margin: -1px;
-	padding-left: 32px;
     list-style: none;
     height: auto;
     width: 200%;
@@ -123,6 +122,7 @@ ul.submenu-products {
 	display: block;
 	text-align: inherit;
 	color: white;
+	padding-left: 32px;
 }
 .submenu-products a:hover  {
 	background-color: white;
@@ -137,14 +137,17 @@ ul.menu > li:hover > ul.submenu-products {
 	display: block;
 }
 .dropdown {
+	width: 15px;
+	height: 15px;
+	background: url(layers/header/dropdown.png) no-repeat 50%;
 	position: absolute;
-	padding-left: 5%;
-	top: -2px;
+	right: 11px;
+	top: 17px;
 }
 .main  {
 	font-family: 'Roboto', sans-serif;
 	color: white;
-	height: 2635px;
+	/*height: 2635px;*/
 }
 .slide {
 	height: 400px;
@@ -177,7 +180,7 @@ ul.menu > li:hover > ul.submenu-products {
 .window_product {
 	position: relative;
 	top: 55px;
-	width: 270px;
+	width: 30%;
 	height: 650px;
 	border: 1px solid white;
 	background-color: rgba(44,113,184,0.8);
@@ -215,6 +218,7 @@ ul.menu > li:hover > ul.submenu-products {
 	line-height: 2;
 }
 .text {
+	width: 80%;
 	font-size: 21px;
 	font-weight: 100;
 	line-height: 1.3;
@@ -268,6 +272,9 @@ input[type="buttom"]::-webkit-input-placeholder {
 	background-color: rgba(255,255,255,0.2);
 }
 .white_cart {
+	position: absolute;
+	top: 17px;
+	left: 75%;
 	height: 15px;
 	width: 17px;
 	background: url(layers/main/white_cart.png) no-repeat 50%;
@@ -276,12 +283,12 @@ input[type="buttom"]::-webkit-input-placeholder {
 	margin: 0px 30px 30px 0px;
 }
 .sort_by {
-	float: right;
-	width: 270px;
+	/*float: right;*/
+	width: 30%;
 	height: 45px;
-	top: 28px;
+	/*top: 28px;*/
 	padding: 0px 0px 0px 15px;
-	margin: -45px 170px 0px 0px;
+	/*margin: -45px 170px 0px 0px;*/
 	font-size: 21px;
 	color: white;
 	background-color: #2c71b8;
@@ -293,7 +300,18 @@ input[type="buttom"]::-webkit-input-placeholder {
 .white_heart a:hover {
 	background: url(layers/main/white_heart.png) #2c71b8 no-repeat 50%;
 }
-
+.load {
+	text-align: center;
+	color: white;
+	font-size: 36px;
+}
+.footer {
+	background-color: rgba(255,255,255,0.75);
+	/*padding: 25px 0;*/
+	height: 100px;
+	text-align: center;
+	color: #2c71b8
+}
 
 
 
