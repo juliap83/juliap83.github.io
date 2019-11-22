@@ -11,3 +11,4 @@ for(let i = 0;i < addToCartButtons.length;i++) {
 		productsCountE1.textContent = prevProductsCount + 1
 	})
 }
+
