@@ -12,3 +12,12 @@ for(let i = 0;i < addToCartButtons.length;i++) {
 	})
 }
 
+let blueHeartButtons = document.getElementsByClassName("blue_heart");
+console.log(blueHeartButtons);
+
+ function like () { blueHeartButtons.addEventListener("click",
+ 	.addClass("like") .removeClass("blue_heart"))
+ console.log()
+	}
+
+like()

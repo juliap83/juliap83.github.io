@@ -153,7 +153,6 @@ ul.menu > li:hover > ul.submenu-products {
 .slides {
 	height: 400px;
 	width: 100%;
-	
 }	
 .options_of_product {
 	height: 842px;
@@ -181,7 +180,6 @@ ul.menu > li:hover > ul.submenu-products {
 .heading {
 	font-size: 48px;
 	line-height: 40px;
-
 }
 .window_product {
 	position: relative;
@@ -271,9 +269,6 @@ ul.menu > li:hover > ul.submenu-products {
 .more_details:hover {
 	background-color: rgba(255,255,255,0.2);
 }
-/*input[type="button"]::-webkit-input-placeholder { 
-	color: white; 
-}*/
 .white_cart {
 	position: absolute;
 	top: 22px;
@@ -371,5 +366,8 @@ input[type="radio"]:checked + label:before {
 .more_options {
 	text-align: center;
 	line-height: 2.5;
+}
+.like {
+	background: url(layers/main/white_heart.png) #2c71b8 no-repeat 50%;
 }
 
